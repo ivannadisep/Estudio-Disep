@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* CSS DE HEADER Y FOOTER */
+
+.header{
+    background-color: #E6DFD9;
+    height: 250px;
+    position: sticky;
+    top: 0;
+}
+
+.header_logo{
+    width: 250px;
+    height: 180px;
+    align-content: center;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Lora', serif;
+    font-size: large;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.submenu{
+    background-color: #E6DFD9;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    display: none;
+    width: 100%;
+}
+
+.footer{
+    background-color: #E6DFD9;
+    font-size: medium;
+    font-family: 'Lora', serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+
+/* INDEX CSS */
+
+.textoPrincipal{
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+.titulos1{
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+.parrafoPrincipal{
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    text-decoration: solid;
+    font-size: large;
+}
+
+/* CSS SERVICIOS */
+.contenedorservicios{
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+
+/* CSS FAQ */
+.contenedorfaq{
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+/* CSS CONTACTO */
+.form{
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+/* CSS NOSOTROS */
+.imgabogado{
+    width: 250px;
+    margin-left: 50px;
+}
+
+.abogadoparrafo{
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
