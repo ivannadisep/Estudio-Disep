@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 
-
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-/* CSS DE HEADER Y FOOTER */
+/* >>>>> HEADER Y FOOTER */
+
+.body{
+    background-color: #E6DFD9;
+}
 
 .header{
-    background-color: #E6DFD9;
-    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#BFB3A8;
+    height: 240px;
     position: sticky;
     top: 0;
 }
@@ -20,15 +26,30 @@
 .header_logo{
     width: 250px;
     height: 180px;
-    align-content: center;
 }
 
-.menu li{
+.navbar{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+
+.nav-link{
+    margin-left: 40px;
+}
+
+.carousel{
+    width: 70%;
+    height: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .menu li{
     display: inline-block;
     position: relative;
     padding: 20px 20px 20px 20px;
     font-family: 'Lora', serif;
-    font-size: large;
+    font-size: 20px;
 }
 
 .menu li:hover .submenu{
@@ -41,26 +62,65 @@
     position: absolute;
     display: none;
     width: 100%;
-}
+} */
 
 .footer{
-    background-color: #E6DFD9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB3A8;
     font-size: medium;
     font-family: 'Lora', serif;
     padding-top: 30px;
     padding-bottom: 10px;
-    
 }
 
+/* .ig{
+    text-decoration: none;
+}
 
-/* INDEX CSS */
+.fb{
+    text-decoration: none;
+} */
+
+                                                            /* INDEX */
+
+/* >>>> GRIDS */
+
+.contenedorgrid1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+ 
+.header{
+    grid-area: header;
+}
+ 
+.contenedorprincipal1{
+    grid-area: main;
+}
+ 
+.footer{
+    grid-area: footer;
+}
+
+/* >>>> CSS */
+
+.tituloPrincipal{
+    font-size: 40px;
+}
 
 .textoPrincipal{
     text-align: center;
     padding: 25px 25px 25px 25px;
     font-family: 'Lora', serif;
     font-stretch: expanded;
-}
+} 
 
 .titulos1{
     text-align: center;
@@ -70,38 +130,115 @@
 }
 
 .parrafoPrincipal{
-    padding: 25px 25px 25px 25px;
+    padding: 25px 65px 25px 65px;
     font-family: 'Lora', serif;
     text-decoration: solid;
-    font-size: large;
+    font-size: 20px;
 }
 
-/* CSS SERVICIOS */
-.contenedorservicios{
+
+
+
+                                                /* >>>> SERVICIOS */
+
+
+/* >>>> GRIDS SERVICIOS*/
+
+.contenedorgrid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+ 
+.header{
+    grid-area: header;
+}
+ 
+.contenedorprincipal2{
+    grid-area: main;
+}
+ 
+.footer{
+    grid-area: footer;
+}
+
+/* >>>> CSS SERVICIOS */
+
+
+
+                                                        /* NOSOTROS */
+
+
+/* >>>> GRIDS NOSOTROS */
+
+.introduccion{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 70px 70px;
+}
+
+.contenedorgrid3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+ 
+.header{
+    grid-area: header;
+}
+ 
+.contenedornosotros{
+    grid-area: main;
+}
+ 
+.footer{
+    grid-area: footer;
+}
+
+/* >>>>CSS NOSOTROS */
+
+.tituloNosotros{
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 25px 25px 25px 25px;
     font-family: 'Lora', serif;
     font-stretch: expanded;
 }
 
-
-/* CSS FAQ */
-.contenedorfaq{
+.tituloPrincipal{
+    text-align: center;
     padding: 25px 25px 25px 25px;
     font-family: 'Lora', serif;
     font-stretch: expanded;
 }
 
-/* CSS CONTACTO */
-.form{
-    font-family: 'Lora', serif;
-    font-stretch: expanded;
-}
-
-/* CSS NOSOTROS */
 .imgabogado{
     width: 250px;
     margin-left: 50px;
+}
+
+.abogado1{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+
+.abogado2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
 }
 
 .abogadoparrafo{
@@ -109,3 +246,116 @@
     font-family: 'Lora', serif;
     font-stretch: expanded;
 }
+
+                                                        /* CONTACTO */
+
+
+/* >>>> GRIDS CONTACTO*/
+
+.contenedorgrid4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+ 
+.header{
+    grid-area: header;
+}
+ 
+.contenedorcontacto{
+    grid-area: main;
+}
+ 
+.footer{
+    grid-area: footer;
+}
+
+/* >>>CSS CONTACTO */
+
+.contenedorcontacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.titulocontacto{
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+
+.contenedorcontacto{
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    text-decoration: solid;
+    font-size: large;
+}
+
+
+                                                        /* FAQ */
+
+
+/* >>>> GRIDS FAQ */
+
+.contenedorgrid5{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+ 
+.header{
+    grid-area: header;
+}
+ 
+.contenedorfaq{
+    grid-area: main;
+}
+ 
+.footer{
+    grid-area: footer;
+}
+
+/* >>>>> CSS FAQ */
+
+.titulofaq{
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.contenedorfaq{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+.preg1{
+    padding: 30px 30px 30px 30px;
+}
+
+.preg2{
+    padding: 30px 30px 30px 30px;
+}
+
+.preg3{
+    padding: 30px 30px 30px 30px;
+}
+
+.preg4{
+    padding: 30px 30px 30px 30px;
+}
+
