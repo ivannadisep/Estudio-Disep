@@ -95,13 +95,18 @@
     color: black;
 }
 
-/* .ig{
-    text-decoration: none;
+
+
+/*     MEDIA QUERIES   FOOTER   TAMANO    CELULAR*/
+@media screen and (max-width:767px) and (min-width:350px) {
+
+    .footer{
+        font-size: x-small;
+    }
+
 }
 
-.fb{
-    text-decoration: none;
-} */
+
 
                                                             /* INDEX */
 
@@ -267,6 +272,20 @@
     font-stretch: expanded;
 }
 
+/*     MEDIA QUERIES   NOSOTROS   TAMANO    CELULAR*/
+@media screen and (max-width:767px) and (min-width:350px) {
+
+    .abogado1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abogado2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
                                                         /* CONTACTO */
 
 
@@ -296,6 +315,11 @@
 
 /* >>>CSS CONTACTO */
 
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
 .contenedorcontacto{
     display: flex;
     flex-direction: row;
@@ -316,6 +340,21 @@
     font-family: 'Lora', serif;
     text-decoration: solid;
     font-size: large;
+}
+
+
+/*     MEDIA QUERIES   CONTACTO   TAMANO    CELULAR*/
+@media screen and (max-width:767px) and (min-width:350px) {
+
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorcontacto{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -364,6 +403,9 @@
 }
 
 .preg1{
+    border-top-style: solid;
+    border-color: #7A7067;
+    border-left-style: solid;
     padding: 30px 30px 30px 30px;
 }
 
@@ -376,6 +418,9 @@
 }
 
 .preg4{
+    border-top-style: solid;
+    border-color: #7A7067;
+    border-left-style: solid;
     padding: 30px 30px 30px 30px;
 }
 
