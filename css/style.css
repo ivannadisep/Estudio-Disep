@@ -41,6 +41,10 @@
     margin-left: 40px;
 }
 
+.nav-link:hover{
+    background-color:#BFB3A8;
+}
+
 .carousel-item{
     height: 320px;
 }
@@ -81,6 +85,14 @@
     font-family: 'Lora', serif;
     padding-top: 30px;
     padding-bottom: 10px;
+}
+
+.ig{
+    color: black;
+}
+
+.fb{
+    color: black;
 }
 
 /* .ig{
