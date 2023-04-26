@@ -203,8 +203,8 @@
 .introduccion{
     flex-direction: column;
     display: flex;
-    align-items: center;
-    padding: 20px 70px 70px 70px;
+    text-align: justify;
+    padding: 10px 5px 10px 5px;
 }
 
 .contenedorgrid3{
@@ -354,6 +354,11 @@
     .contenedorcontacto{
         display: flex;
         flex-direction: column;
+        font-size: smaller;
+    }
+
+    .iframe{
+        width: 80%;
     }
 }
 
@@ -424,3 +429,24 @@
     padding: 30px 30px 30px 30px;
 }
 
+/*     MEDIA QUERIES   FAQ   TAMANO    CELULAR*/
+@media screen and (max-width:767px) and (min-width:350px) {
+
+    .contenedorfaq{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .preg1{
+        border-top-style: solid;
+        border-color: #7A7067;
+        border-left-style: solid;
+    }
+
+    .preg4{
+        border-top-style: solid;
+        border-color: #7A7067;
+        border-left-style: solid;
+    }
+
+ }
