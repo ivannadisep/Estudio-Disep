@@ -110,6 +110,15 @@
   font-family: "Lora", serif;
   font-stretch: expanded;
 }
+.contenedornosotros .introduccion .parrafoPrincipal {
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+}
+.contenedornosotros .sobrenosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contenedornosotros .sobrenosotros .tituloNosotros {
   display: flex;
   justify-content: center;
@@ -127,7 +136,7 @@
 }
 .contenedornosotros .sobrenosotros .abogado1 .imgabogado {
   width: 250px;
-  margin-left: 50px;
+  filter: drop-shadow(0 0 7px black);
 }
 .contenedornosotros .sobrenosotros .abogado1 .abogadoparrafo {
   padding: 25px 25px 25px 25px;
@@ -142,7 +151,7 @@
 }
 .contenedornosotros .sobrenosotros .abogado2 .imgabogado {
   width: 250px;
-  margin-left: 50px;
+  filter: drop-shadow(0 0 7px black);
 }
 .contenedornosotros .sobrenosotros .abogado2 .abogadoparrafo {
   padding: 25px 25px 25px 25px;
@@ -157,7 +166,7 @@
 }
 .contenedornosotros .sobrenosotros .abogado3 .imgabogado {
   width: 250px;
-  margin-left: 50px;
+  filter: drop-shadow(0 0 7px black);
 }
 .contenedornosotros .sobrenosotros .abogado3 .abogadoparrafo {
   padding: 25px 25px 25px 25px;
