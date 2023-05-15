@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $ColorHeaderFooter;
+    height: 240px;
+    position: sticky;
+    top: 0;
+    z-index:99;
+    width: 100%;
+
+    .header_logo{
+    width: 250px;
+    height: 180px;
+    }
+
+    .navbar{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    width: 100%;
+    z-index:99;
+    
+        .nav-link{
+        margin-left: 40px;
+        
+            &hover{
+            background-color:#BFB3A8;
+            }
+        }
+    }
+}
+
+
+
+

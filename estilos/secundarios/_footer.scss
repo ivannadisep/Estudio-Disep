@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB3A8;
+    font-size: medium;
+    font-family: 'Lora', serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    .ig{
+    color: black;
+    }
+
+    .fb{
+    color: black;
+    }
+}
+
+
+/*     MEDIA QUERIES   FOOTER   TAMANO    CELULAR*/
+@media screen and (max-width:767px) and (min-width:350px) {
+    .footer{
+        font-size: x-small;
+    }
+}

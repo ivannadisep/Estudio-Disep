@@ -1,0 +1,68 @@
+.contenedorgrid5{
+    .titulofaq{
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 50px;
+    }
+
+    .contenedorfaq{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+
+        .preg1y2{
+            .preg1{
+            border-top-style: solid;
+            border-color: #7A7067;
+            border-left-style: solid;
+            padding: 30px 30px 30px 30px;
+            }
+            
+            .preg2{
+            padding: 30px 30px 30px 30px;
+            }
+        }
+
+
+        .preg3y4{
+            .preg3{
+            padding: 30px 30px 30px 30px;
+            }
+            .preg4{
+            border-top-style: solid;
+            border-color: #7A7067;
+            border-left-style: solid;
+            padding: 30px 30px 30px 30px;
+            }
+        }
+    }
+}
+
+
+/*     MEDIA QUERIES   FAQ   TAMANO    CELULAR*/
+@media screen and (max-width:767px) and (min-width:350px) {
+
+    .contenedorfaq{
+        display: flex;
+        flex-direction: column;
+
+        .preg1y2{
+            .preg1{
+            border-top-style: solid;
+            border-color: #7A7067;
+            border-left-style: solid;
+            }
+        }
+
+        .preg3y4{
+            .preg4{
+            border-top-style: solid;
+            border-color: #7A7067;
+            border-left-style: solid;
+            }
+        }      
+    }
+}

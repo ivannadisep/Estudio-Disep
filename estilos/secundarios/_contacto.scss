@@ -1,0 +1,57 @@
+.tituloPrincipal{
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    font-stretch: expanded;
+}
+
+.contenedorcontacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Lora', serif;
+    text-decoration: solid;
+    font-size: large;
+    
+        .form{
+        display: flex;
+        flex-direction: column; 
+            .datos{
+                font-size: 30px;
+            }      
+        }
+
+        .mapa{
+            titulomapa{
+                font-size: 30px;
+            }
+        }
+    
+}
+
+/*     MEDIA QUERIES   CONTACTO   TAMANO    CELULAR*/
+@media screen and (max-width:767px) and (min-width:350px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorcontacto{
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+            .form{
+            display: flex;
+            flex-direction: column;
+            }
+
+            .mapa{
+                .iframe{
+                width: 80%;
+                }
+            }
+    } 
+}
+
+                                                    
