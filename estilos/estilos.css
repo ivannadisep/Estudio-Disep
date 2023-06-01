@@ -201,14 +201,9 @@
   font-stretch: expanded;
 }
 .contenedorgrid4 .contactowsp {
+  width: 150px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.contenedorgrid4 .contactowsp .tituloWsp {
-  font-family: "Lora", serif;
-  font-size: 30px;
-  padding: 25px 25px 25px 25px;
+  margin: auto;
 }
 .contenedorgrid4 .contenedorcontacto {
   display: flex;
@@ -234,10 +229,10 @@
 
 /*     MEDIA QUERIES   CONTACTO   TAMANO    CELULAR*/
 @media screen and (max-width: 767px) and (min-width: 350px) {
-  .contenedorgrid4 .contactowsp {
+  .contenedorgrid4 .contactowsp .imgwsp {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 80%;
+    margin: auto;
   }
   .contenedorgrid4 .contenedorcontacto {
     display: flex;

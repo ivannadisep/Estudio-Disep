@@ -7,15 +7,10 @@
     }
 
     .contactowsp{
+        width: 150px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        .tituloWsp{
-            font-family: 'Lora', serif;
-            font-size: 30px;
-            padding: 25px 25px 25px 25px;
-        }
-            }
+        margin: auto;
+    }
     
     .contenedorcontacto{
         display: flex;
@@ -54,9 +49,11 @@
     .contenedorgrid4{
             
         .contactowsp{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            .imgwsp{
+                display: flex;
+                width: 80%;
+                margin: auto;
+            }
         }
         
         .contenedorcontacto{
