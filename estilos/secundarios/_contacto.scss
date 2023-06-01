@@ -7,9 +7,9 @@
     }
 
     .contactowsp{
-        width: 150px;
         display: flex;
-        margin: auto;
+        justify-content: center;
+        font-size: 150px;
     }
     
     .contenedorcontacto{
@@ -49,11 +49,10 @@
     .contenedorgrid4{
             
         .contactowsp{
-            .imgwsp{
-                display: flex;
-                width: 80%;
-                margin: auto;
-            }
+            font-size: 100px;
+            display: flex;
+            margin: auto;
+            justify-content: center;
         }
         
         .contenedorcontacto{

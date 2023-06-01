@@ -201,9 +201,9 @@
   font-stretch: expanded;
 }
 .contenedorgrid4 .contactowsp {
-  width: 150px;
   display: flex;
-  margin: auto;
+  justify-content: center;
+  font-size: 150px;
 }
 .contenedorgrid4 .contenedorcontacto {
   display: flex;
@@ -229,10 +229,11 @@
 
 /*     MEDIA QUERIES   CONTACTO   TAMANO    CELULAR*/
 @media screen and (max-width: 767px) and (min-width: 350px) {
-  .contenedorgrid4 .contactowsp .imgwsp {
+  .contenedorgrid4 .contactowsp {
+    font-size: 100px;
     display: flex;
-    width: 80%;
     margin: auto;
+    justify-content: center;
   }
   .contenedorgrid4 .contenedorcontacto {
     display: flex;
