@@ -5,6 +5,17 @@
         font-family: 'Lora', serif;
         font-stretch: expanded;
     }
+
+    .contactowsp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .tituloWsp{
+            font-family: 'Lora', serif;
+            font-size: 30px;
+            padding: 25px 25px 25px 25px;
+        }
+            }
     
     .contenedorcontacto{
         display: flex;
@@ -16,6 +27,7 @@
         text-decoration: solid;
         font-size: large;
         
+
             .form{
             display: flex;
             flex-direction: column; 
@@ -25,7 +37,7 @@
             }
     
             .mapa{
-                titulomapa{
+                .titulomapa{
                     font-size: 30px;
                 }
             }
@@ -38,25 +50,43 @@
 
 /*     MEDIA QUERIES   CONTACTO   TAMANO    CELULAR*/
 @media screen and (max-width:767px) and (min-width:350px) {
-    .form{
-        display: flex;
-        flex-direction: column;
-    }
-    .contenedorcontacto{
-        display: flex;
-        flex-direction: column;
-        font-size: smaller;
-            .form{
+
+    .contenedorgrid4{
+            
+        .contactowsp{
             display: flex;
             flex-direction: column;
-            }
-
-            .mapa{
-                .iframe{
+            align-items: center;
+            .imgwsp{
                 width: 80%;
-                }
+                display: flex;
+                margin: auto;
             }
-    } 
+            .tituloWsp{
+                font-family: 'Lora', serif;
+                font-size: 15px;
+            }
+        }
+        
+        .contenedorcontacto{
+            display: flex;
+            flex-direction: column;
+            font-size: smaller;             
+                .form{
+                display: flex;
+                flex-direction: column;   
+                }
+        
+                .mapa{
+                    .iframe{
+                    width: 80%;
+                    }
+                }
+            
+        }
+    
+    }
+
 }
 
                                                     

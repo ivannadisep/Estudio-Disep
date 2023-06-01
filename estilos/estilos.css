@@ -90,6 +90,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+.contenedorgrid1 .contenedorindex .especialidadesTitulo {
+  font-family: "Lora", serif;
+  font-size: 25px;
+  text-align: center;
+}
 .contenedorgrid1 .contenedorindex .tituloSecundario {
   text-align: center;
   padding: 25px 25px 25px 25px;
@@ -195,6 +200,16 @@
   font-family: "Lora", serif;
   font-stretch: expanded;
 }
+.contenedorgrid4 .contactowsp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedorgrid4 .contactowsp .tituloWsp {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  padding: 25px 25px 25px 25px;
+}
 .contenedorgrid4 .contenedorcontacto {
   display: flex;
   flex-direction: row;
@@ -213,26 +228,36 @@
 .contenedorgrid4 .contenedorcontacto .form .datos {
   font-size: 30px;
 }
-.contenedorgrid4 .contenedorcontacto .mapa titulomapa {
+.contenedorgrid4 .contenedorcontacto .mapa .titulomapa {
   font-size: 30px;
 }
 
 /*     MEDIA QUERIES   CONTACTO   TAMANO    CELULAR*/
 @media screen and (max-width: 767px) and (min-width: 350px) {
-  .form {
+  .contenedorgrid4 .contactowsp {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .contenedorcontacto {
+  .contenedorgrid4 .contactowsp .imgwsp {
+    width: 80%;
+    display: flex;
+    margin: auto;
+  }
+  .contenedorgrid4 .contactowsp .tituloWsp {
+    font-family: "Lora", serif;
+    font-size: 15px;
+  }
+  .contenedorgrid4 .contenedorcontacto {
     display: flex;
     flex-direction: column;
     font-size: smaller;
   }
-  .contenedorcontacto .form {
+  .contenedorgrid4 .contenedorcontacto .form {
     display: flex;
     flex-direction: column;
   }
-  .contenedorcontacto .mapa .iframe {
+  .contenedorgrid4 .contenedorcontacto .mapa .iframe {
     width: 80%;
   }
 }
