@@ -239,15 +239,6 @@
     flex-direction: column;
     align-items: center;
   }
-  .contenedorgrid4 .contactowsp .imgwsp {
-    width: 80%;
-    display: flex;
-    margin: auto;
-  }
-  .contenedorgrid4 .contactowsp .tituloWsp {
-    font-family: "Lora", serif;
-    font-size: 15px;
-  }
   .contenedorgrid4 .contenedorcontacto {
     display: flex;
     flex-direction: column;
