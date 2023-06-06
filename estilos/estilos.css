@@ -54,6 +54,9 @@
 .footer .fb {
   color: black;
 }
+.footer .mail {
+  color: black;
+}
 
 /*     MEDIA QUERIES   FOOTER   TAMANO    CELULAR*/
 @media screen and (max-width: 767px) and (min-width: 350px) {
