@@ -199,6 +199,12 @@
   color: #5a4f4a;
   }
 
+@media (max-width: 992px) {
+    .textoPrincipal .parrafoPrincipal {
+        font-size: larger;
+    }
+}
+
 .seccionesIndex .contenedorindex .parrafoPrincipal{
   font-family: "Lora", serif;
   font-size: larger;
